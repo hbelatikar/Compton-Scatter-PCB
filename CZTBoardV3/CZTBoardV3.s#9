@@ -9956,14 +9956,14 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="U$1" library="Orbotech_OMS40G256" deviceset="ORBOTECH_OMS40G256" device=""/>
 <part name="U$2" library="DS90LV031ATMX" deviceset="DS90LV031ATMX" device=""/>
 <part name="U$3" library="DS90LV032ATM" deviceset="DS90LV032ATM" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R1206"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R1206" value="100"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R1206" value="0"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R1206" value="0"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R1206" value="0"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R1206" value="0"/>
 <part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
@@ -9989,19 +9989,19 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805K"/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0805K"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="68"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R1206"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="SUPPLY16" library="supply2" deviceset="DGND" device=""/>
 <part name="VDD9" library="supply1" deviceset="VDD" device=""/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R1206"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="VDD10" library="supply1" deviceset="VDD" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R1206"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="VDD11" library="supply1" deviceset="VDD" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="DGND" device=""/>
 <part name="X3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
@@ -10863,19 +10863,15 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,27.94,137.16,U$2,VCC,VDD,,,"/>
-<approved hash="202,1,27.94,129.54,U$2,~EN,,,,"/>
-<approved hash="202,1,27.94,121.92,U$2,DIN2,,,,"/>
-<approved hash="104,1,63.5,91.44,U$3,VCC,VDD,,,"/>
-<approved hash="202,1,63.5,86.36,U$3,EN,,,,"/>
-<approved hash="202,1,63.5,78.74,U$3,RIN1-,,,,"/>
-<approved hash="202,1,63.5,76.2,U$3,RIN1+,,,,"/>
-<approved hash="202,1,63.5,73.66,U$3,RIN2+,,,,"/>
-<approved hash="202,1,63.5,71.12,U$3,RIN2-,,,,"/>
-<approved hash="202,1,63.5,68.58,U$3,RIN3+,,,,"/>
-<approved hash="202,1,63.5,66.04,U$3,RIN3-,,,,"/>
-<approved hash="106,1,142.24,104.14,HV,,,,,"/>
-<approved hash="108,1,91.44,160.02,DGND,,,,,"/>
+<approved hash="202,1,12.7,96.52,U$2,~EN,,,,"/>
+<approved hash="202,1,12.7,88.9,U$2,DIN2,,,,"/>
+<approved hash="202,1,48.26,53.34,U$3,EN,,,,"/>
+<approved hash="202,1,48.26,45.72,U$3,RIN1-,,,,"/>
+<approved hash="202,1,48.26,43.18,U$3,RIN1+,,,,"/>
+<approved hash="202,1,48.26,40.64,U$3,RIN2+,,,,"/>
+<approved hash="202,1,48.26,38.1,U$3,RIN2-,,,,"/>
+<approved hash="202,1,48.26,35.56,U$3,RIN3+,,,,"/>
+<approved hash="202,1,48.26,33.02,U$3,RIN3-,,,,"/>
 </errors>
 </schematic>
 </drawing>

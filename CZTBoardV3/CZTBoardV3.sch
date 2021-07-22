@@ -10243,42 +10243,42 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="VDD5" gate="G$1" x="30.48" y="172.72" smashed="yes">
 <attribute name="VALUE" x="27.94" y="170.18" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3.3V_ON" gate="G$1" x="182.88" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.452" y="138.176" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="187.452" y="140.335" size="1.778" layer="96" rot="R180"/>
+<instance part="3.3V_ON" gate="G$1" x="167.64" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="172.212" y="39.116" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="172.212" y="41.275" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="S1" gate="BEF1" x="220.98" y="172.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="218.44" y="167.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="165.1" size="1.778" layer="96"/>
+<instance part="S1" gate="BEF1" x="205.74" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="203.2" y="68.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="203.2" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="X6" gate="G$1" x="231.14" y="157.48" smashed="yes"/>
-<instance part="X7" gate="-1" x="185.42" y="172.72" smashed="yes">
-<attribute name="NAME" x="187.325" y="171.958" size="1.778" layer="95"/>
-<attribute name="VALUE" x="182.753" y="174.117" size="1.778" layer="96"/>
+<instance part="X6" gate="G$1" x="215.9" y="58.42" smashed="yes"/>
+<instance part="X7" gate="-1" x="170.18" y="73.66" smashed="yes">
+<attribute name="NAME" x="172.085" y="72.898" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.513" y="75.057" size="1.778" layer="96"/>
 </instance>
-<instance part="X7" gate="-2" x="185.42" y="170.18" smashed="yes">
-<attribute name="NAME" x="187.325" y="169.418" size="1.778" layer="95"/>
+<instance part="X7" gate="-2" x="170.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="172.085" y="70.358" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-3" x="185.42" y="167.64" smashed="yes">
-<attribute name="NAME" x="187.325" y="166.878" size="1.778" layer="95"/>
+<instance part="X7" gate="-3" x="170.18" y="68.58" smashed="yes">
+<attribute name="NAME" x="172.085" y="67.818" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-4" x="185.42" y="165.1" smashed="yes">
-<attribute name="NAME" x="187.325" y="164.338" size="1.778" layer="95"/>
+<instance part="X7" gate="-4" x="170.18" y="66.04" smashed="yes">
+<attribute name="NAME" x="172.085" y="65.278" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-5" x="185.42" y="162.56" smashed="yes">
-<attribute name="NAME" x="187.325" y="161.798" size="1.778" layer="95"/>
+<instance part="X7" gate="-5" x="170.18" y="63.5" smashed="yes">
+<attribute name="NAME" x="172.085" y="62.738" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-6" x="185.42" y="160.02" smashed="yes">
-<attribute name="NAME" x="187.325" y="159.258" size="1.778" layer="95"/>
+<instance part="X7" gate="-6" x="170.18" y="60.96" smashed="yes">
+<attribute name="NAME" x="172.085" y="60.198" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-7" x="185.42" y="157.48" smashed="yes">
-<attribute name="NAME" x="187.325" y="156.718" size="1.778" layer="95"/>
+<instance part="X7" gate="-7" x="170.18" y="58.42" smashed="yes">
+<attribute name="NAME" x="172.085" y="57.658" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-8" x="185.42" y="154.94" smashed="yes">
-<attribute name="NAME" x="187.325" y="154.178" size="1.778" layer="95"/>
+<instance part="X7" gate="-8" x="170.18" y="55.88" smashed="yes">
+<attribute name="NAME" x="172.085" y="55.118" size="1.778" layer="95"/>
 </instance>
-<instance part="X7" gate="-9" x="185.42" y="152.4" smashed="yes">
-<attribute name="NAME" x="187.325" y="151.638" size="1.778" layer="95"/>
+<instance part="X7" gate="-9" x="170.18" y="53.34" smashed="yes">
+<attribute name="NAME" x="172.085" y="52.578" size="1.778" layer="95"/>
 </instance>
 <instance part="R10" gate="G$1" x="66.04" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.85" y="153.4414" size="1.778" layer="95" rot="R180"/>
@@ -10440,8 +10440,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="7.62" y="81.28"/>
 </segment>
 <segment>
-<label x="172.72" y="170.18" size="1.778" layer="95"/>
-<wire x1="182.88" y1="170.18" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
+<label x="157.48" y="71.12" size="1.778" layer="95"/>
+<wire x1="167.64" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-2" pin="M"/>
 </segment>
 </net>
@@ -10454,8 +10454,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="5.08" y="91.44"/>
 </segment>
 <segment>
-<label x="172.72" y="172.72" size="1.778" layer="95"/>
-<wire x1="182.88" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
+<label x="157.48" y="73.66" size="1.778" layer="95"/>
+<wire x1="167.64" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-1" pin="M"/>
 </segment>
 </net>
@@ -10469,8 +10469,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="2.54" y="86.36"/>
 </segment>
 <segment>
-<wire x1="172.72" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
-<label x="172.72" y="167.64" size="1.778" layer="95"/>
+<wire x1="157.48" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="157.48" y="68.58" size="1.778" layer="95"/>
 <pinref part="X7" gate="-3" pin="M"/>
 </segment>
 </net>
@@ -10601,16 +10601,16 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="55.88" y="132.08"/>
 </segment>
 <segment>
-<label x="203.2" y="149.86" size="1.778" layer="95"/>
-<wire x1="220.98" y1="149.86" x2="203.2" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="149.86" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
+<label x="187.96" y="50.8" size="1.778" layer="95"/>
+<wire x1="205.74" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="50.8" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="X6" gate="G$1" pin="X6"/>
-<wire x1="220.98" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="33.02" x2="215.9" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S1" gate="BEF1" pin="S"/>
-<wire x1="226.06" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
-<label x="231.14" y="170.18" size="1.778" layer="95"/>
+<wire x1="210.82" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="215.9" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3VREG" class="0">
@@ -10730,8 +10730,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="20.32" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="172.72" y="157.48" size="1.778" layer="95"/>
-<wire x1="182.88" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="157.48" y="58.42" size="1.778" layer="95"/>
+<wire x1="167.64" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-7" pin="M"/>
 </segment>
 </net>
@@ -10749,8 +10749,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="30.48" y1="154.94" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="172.72" y="154.94" size="1.778" layer="95"/>
-<wire x1="182.88" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
+<label x="157.48" y="55.88" size="1.778" layer="95"/>
+<wire x1="167.64" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-8" pin="M"/>
 </segment>
 </net>
@@ -10765,9 +10765,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <pinref part="3.3V_ON" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="134.62" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="134.62" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<label x="193.04" y="132.08" size="1.778" layer="95"/>
+<wire x1="172.72" y1="35.56" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="35.56" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
+<label x="177.8" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO" class="0">
@@ -10782,8 +10782,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="22.86" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="172.72" y="152.4" size="1.778" layer="95"/>
-<wire x1="182.88" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
+<label x="157.48" y="53.34" size="1.778" layer="95"/>
+<wire x1="167.64" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-9" pin="M"/>
 </segment>
 </net>
@@ -10820,23 +10820,23 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="5.08" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="172.72" y="165.1" size="1.778" layer="95"/>
-<wire x1="182.88" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
+<label x="157.48" y="66.04" size="1.778" layer="95"/>
+<wire x1="167.64" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="X7" gate="-4" pin="M"/>
 </segment>
 </net>
 <net name="BOX_VIN" class="0">
 <segment>
 <pinref part="S1" gate="BEF1" pin="P"/>
-<wire x1="215.9" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
-<label x="200.66" y="172.72" size="1.778" layer="95"/>
+<wire x1="200.66" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<label x="185.42" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="203.2" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<label x="203.2" y="152.4" size="1.778" layer="95"/>
-<wire x1="220.98" y1="152.4" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<label x="187.96" y="53.34" size="1.778" layer="95"/>
+<wire x1="205.74" y1="53.34" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X6" gate="G$1" pin="X1"/>
-<wire x1="220.98" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CZT_VIN" class="0">
@@ -10849,8 +10849,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="53.34" y="144.78"/>
 </segment>
 <segment>
-<wire x1="226.06" y1="175.26" x2="241.3" y2="175.26" width="0.1524" layer="91"/>
-<label x="231.14" y="175.26" size="1.778" layer="95"/>
+<wire x1="210.82" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="76.2" size="1.778" layer="95"/>
 <pinref part="S1" gate="BEF1" pin="O"/>
 </segment>
 </net>
@@ -10863,9 +10863,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <pinref part="3.3V_ON" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="134.62" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
-<label x="175.26" y="132.08" size="1.778" layer="95" rot="R180"/>
+<wire x1="165.1" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="35.56" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
+<label x="160.02" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

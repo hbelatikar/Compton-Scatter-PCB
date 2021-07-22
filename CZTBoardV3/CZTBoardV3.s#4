@@ -10597,6 +10597,11 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X6" gate="G$1" pin="X6"/>
 <wire x1="220.98" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="S1" gate="BEF1" pin="S"/>
+<wire x1="226.06" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<label x="231.14" y="170.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED+" class="0">
 <segment>

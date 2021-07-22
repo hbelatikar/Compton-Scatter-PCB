@@ -10494,14 +10494,6 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="127" y="78.74"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
-<wire x1="99.06" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="132.08" x2="101.6" y2="127" width="0.1524" layer="91"/>
-<junction x="101.6" y="127"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="~EN"/>
 <pinref part="SUPPLY8" gate="G$1" pin="DGND"/>
 <wire x1="48.26" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
@@ -10522,6 +10514,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="DGND"/>
 <pinref part="R17" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
+<wire x1="99.06" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="132.08" x2="101.6" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">

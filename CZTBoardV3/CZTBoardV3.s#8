@@ -9982,9 +9982,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="IC2" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR"/>
 <part name="SUPPLY10" library="supply2" deviceset="AGND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0805K"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0805K"/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0805K"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0805K" value="0.1u"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0805K" value="0.01u"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0805K" value="0.001u"/>
 <part name="VDD6" library="supply1" deviceset="VDD" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805K"/>

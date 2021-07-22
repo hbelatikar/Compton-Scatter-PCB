@@ -10448,6 +10448,11 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X5" gate="-1" pin="KL"/>
 <junction x="5.08" y="91.44"/>
 </segment>
+<segment>
+<label x="172.72" y="172.72" size="1.778" layer="95"/>
+<wire x1="182.88" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="X7" gate="-1" pin="M"/>
+</segment>
 </net>
 <net name="SS" class="0">
 <segment>
@@ -10824,27 +10829,18 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X7" gate="-4" pin="M"/>
 </segment>
 </net>
-<net name="SCLK" class="0">
+<net name="BOX_VIN" class="0">
 <segment>
-<label x="172.72" y="172.72" size="1.778" layer="95"/>
-<wire x1="182.88" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="X7" gate="-1" pin="M"/>
+<pinref part="S1" gate="BEF1" pin="P"/>
+<wire x1="215.9" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
+<label x="200.66" y="172.72" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="VIN" class="0">
 <segment>
 <wire x1="203.2" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 <label x="203.2" y="152.4" size="1.778" layer="95"/>
 <wire x1="220.98" y1="152.4" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="X6" gate="G$1" pin="X1"/>
 <wire x1="220.98" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BOX_VIN" class="0">
-<segment>
-<pinref part="S1" gate="BEF1" pin="P"/>
-<wire x1="215.9" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
-<label x="200.66" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CZT_VIN" class="0">
@@ -10866,8 +10862,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,1,182.88,162.56,X7-5,M,,,,"/>
+<approved hash="101,1,182.88,160.02,X7-6,M,,,,"/>
+<approved hash="104,1,12.7,104.14,U$2,VCC,VDD,,,"/>
 <approved hash="202,1,12.7,96.52,U$2,~EN,,,,"/>
 <approved hash="202,1,12.7,88.9,U$2,DIN2,,,,"/>
+<approved hash="104,1,48.26,58.42,U$3,VCC,VDD,,,"/>
 <approved hash="202,1,48.26,53.34,U$3,EN,,,,"/>
 <approved hash="202,1,48.26,45.72,U$3,RIN1-,,,,"/>
 <approved hash="202,1,48.26,43.18,U$3,RIN1+,,,,"/>
@@ -10875,6 +10875,14 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <approved hash="202,1,48.26,38.1,U$3,RIN2-,,,,"/>
 <approved hash="202,1,48.26,35.56,U$3,RIN3+,,,,"/>
 <approved hash="202,1,48.26,33.02,U$3,RIN3-,,,,"/>
+<approved hash="106,1,127,71.12,HV,,,,,"/>
+<approved hash="113,1,16.9515,149.86,X3,,,,,"/>
+<approved hash="113,1,52.5115,132.08,X1,,,,,"/>
+<approved hash="113,1,49.9715,172.72,X2,,,,,"/>
+<approved hash="113,1,-0.828481,86.36,X4,,,,,"/>
+<approved hash="113,1,1.71152,91.44,X5,,,,,"/>
+<approved hash="113,1,184.15,134.942,3.3V_ON,,,,,"/>
+<approved hash="113,1,185.931,172.72,X7,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -10043,8 +10043,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <attribute name="VALUE" x="74.422" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="63.5" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.0814" y="24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.802" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="62.0014" y="24.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="66.802" y="24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="83.82" y="149.86" smashed="yes">
 <attribute name="NAME" x="80.01" y="151.3586" size="1.778" layer="95"/>
